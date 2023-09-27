@@ -84,6 +84,14 @@ img {
    font-size:1.3rem;
 }
 
+.navbar p{
+   font-size:1.3rem;
+   color:white;
+}
+.navbar i{
+   color:darkgoldenrod;
+}
+
 .navbar nav a:hover{
    border-bottom:solid 2.5px white;
 }
@@ -176,5 +184,57 @@ header .content .btn{
    background:darkgoldenrod;
    color:#fff;
 }
+
+/* Services */
+.services{
+   background-color:orange;
+   margin-top:3rem;
+   margin-bottom:none;
+}
+
+.services .blocks{
+   display:flex;
+   text-align: center;
+
+}
+
+.services .blocks p {
+   font-size:1.1rem;
+}
+
+.services .blocks h2{
+   font-size:1.6rem;
+}
+
+.services .blocks div{
+   background-color:#F28C28;
+   width:33.33%;
+   padding:1.5rem 1rem;
+}
+
+.services .blocks #odd{
+   background-color:orange;
+}
+
+
+/* Footer */
+footer{
+   background:#333;
+   color:#fff;
+   text-align:center;
+   align-items: center;
+}
+
+footer .contact-info{
+   padding:20px;
+}
+
+footer .google-location iframe{
+   margin-top:2rem;
+   margin-bottom:1rem;
+   max-width:1280px;
+   min-width:400px;
+}
+
 
 
