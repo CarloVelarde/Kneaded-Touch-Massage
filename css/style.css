@@ -108,3 +108,73 @@ header .content h2{
 header .content .btn{
    margin-top:10px;
 }
+
+/* Main content */
+.welcome .container div{
+   width:50%;
+}
+
+.welcome h2{
+   font-size:2.4rem;
+}
+
+.welcome .info h2{
+   padding:0 0 1rem 0;
+   border-bottom:orange solid 1.5px;
+}
+
+.welcome .container p{
+   margin-top: 1rem;
+   font-size:1.2rem;
+}
+
+.welcome span a{
+   font-weight:bold;
+}
+.welcome span a:hover{
+   color:orange;
+}
+
+.welcome .hours{
+
+}
+
+.welcome .container {
+   display:flex;
+   justify-content:space-between;
+}
+
+.welcome .info {
+   margin-right:5rem;
+   margin-top:2.8rem;
+}
+
+.welcome .availability{
+   margin-left:5rem;
+   margin-top:2.8rem;
+   padding:1rem;
+   border:solid 2px darkgoldenrod;
+   border-radius:5px;
+}
+.welcome .availability .small{
+   font-size:.9rem;
+   font-style:italic;
+}
+
+.welcome .availability .bigger{
+   font-size:1.3rem;
+}
+
+.welcome .availability .btn{
+   background:none;
+   border:solid 1px darkgoldenrod;
+   color:darkgoldenrod;
+   padding:8px 24px;
+}
+
+.welcome .availability .btn:hover{
+   background:darkgoldenrod;
+   color:#fff;
+}
+
+
