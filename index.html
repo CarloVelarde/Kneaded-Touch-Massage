@@ -40,7 +40,7 @@
          <div class="container">
             <div class = "info">
                <h2>Welcome to Kneaded Touch Massage of Mt. Pleasant</h2>
-               <p>Our massage therapist has been licensed for over 24 years and is specialized in providing top-notch personalized massage services. <span><a href ="">Mr. French</a></span> offers a unique balance of therapeutic and nuruting massage treatments. Mr. French specializes in neck and headache relief while also offering treatments such as <span> <a href = "">Lymphatic Drainage </a></span> and <span> <a href = "">CarnioSacral Therapy </a></span>. Mr. French often uses hot rocks and hotpacks aided by a relaxing auroma during his treatments</p>
+               <p>Our massage therapist has been licensed for over 24 years and is specialized in providing top-notch personalized massage services. <span><a href ="./about.html">Mr. French</a></span> offers a unique balance of therapeutic and nuruting massage treatments. Mr. French specializes in neck and headache relief while also offering treatments such as <span> <a href = "#lymph">Lymphatic Drainage </a></span> and <span> <a href = "#cranio">CarnioSacral Therapy </a></span>. Mr. French often uses hot rocks and hotpacks aided by a relaxing auroma during his treatments</p>
             </div>
             <div class="availability">
                <h2>Availability</h2>
@@ -57,17 +57,17 @@
          <div class="container blocks">
             <div>
                <p> <i class="fa-solid fa-spa"></i></p>
-               <h2> Standard Massage</h2>
+               <h2 id = "stnd"> Standard Massage</h2>
                <p>A harmonious blend of therapeutic and nurturing techniques, uniquely tailored to meet individual needs. Often incorporates hot rocks and hot packs.</p>
             </div>
             <div id = "odd">
                <p><i class="fa-solid fa-bars-staggered"></i></p>
-               <h2> Lymphatic Drainage</h2>
+               <h2 id = "lymph"> Lymphatic Drainage</h2>
                <p> A rejuvinating detox, flushing out retained fluids and toxins, leaving one feeling invirgorated.</p>
             </div>
             <div>
                <p> <i class="fa-solid fa-code-branch"></i></p>
-               <h2> CranioSacral Therapy</h2>
+               <h2 id = "cranio"> CranioSacral Therapy</h2>
                <p> A light-touch therapeutic technique that is known for its effectiveness in treating individuals with PTSD, strokes, and those with cerebral palsy.</p>
             </div>
          </div>
@@ -85,8 +85,24 @@
          </div>
       </footer>
    </main>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
+    <script>
+      // Smooth Scrolling
+      $('.info a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
 
-   
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
 </body>
 </html>
