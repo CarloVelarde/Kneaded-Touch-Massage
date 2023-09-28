@@ -216,6 +216,60 @@ header .content .btn{
    background-color:orange;
 }
 
+/* Contact Page */
+
+.contact-section .full-span{
+   background:#fff;
+   border-bottom: solid #333 2px;
+   border-top:solid #333 2px;
+}
+
+.contact-section .full-span2{
+   background-color:#F28C28;
+}
+
+
+.contact-section .full-span h2{
+   font-size:3rem;
+   font-family:'Times New Roman', Times, serif;
+   font-weight:bold;
+   padding:2.8rem 0;
+   
+}
+
+.contact-section .container {
+   display:flex;
+}
+
+.contact-section .stacks{
+   margin-top:4rem;
+}
+
+.contact-section .stacks h2{
+   font-family:'Times New Roman', Times, serif;
+   font-size:2rem;
+   font-weight:bold;
+   margin-bottom:1.5rem;
+}
+
+.contact-section .stacks p{
+   font-size:1.1rem;
+   margin-bottom:2.5rem;
+}
+
+.contact-setion .appointments{
+   width:62%;
+   padding-right:2rem;
+}
+
+.contact-section .contact {
+   width:34%;
+   padding-left:2rem;
+}
+
+.contact-section .contact iframe{
+   width:100%;
+}
 
 /* Footer */
 footer{
