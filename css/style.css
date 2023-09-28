@@ -216,7 +216,7 @@ header .content .btn{
 /* Contact Page */
 
 .contact-section .full-span{
-   background:#fff;
+   background-color:#fff;
    
 }
 
@@ -392,6 +392,12 @@ footer .google-location iframe{
 
    .contact-section{
       text-align: center;
+   }
+
+   .contact-section .full-span{
+      display:flex;
+      align-items: center;
+      justify-content: center;
    }
 
    .contact-section .full-span2 .contact-container{
