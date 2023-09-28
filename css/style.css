@@ -220,8 +220,7 @@ header .content .btn{
 
 .contact-section .full-span{
    background:#fff;
-   border-bottom: solid #333 2px;
-   border-top:solid #333 2px;
+   
 }
 
 .contact-section .full-span2{
@@ -269,6 +268,38 @@ header .content .btn{
 
 .contact-section .contact iframe{
    width:100%;
+}
+
+/* About Page */
+
+.about-section .container{
+   display:flex;
+}
+
+.about-section .container .about{
+   width:50%;
+   padding:2rem;
+   padding-left:none;
+
+}
+
+.about-section .container img{
+   width:50%;
+   height:600px;
+   padding:2rem;
+   padding-right:none;
+   border-radius:50%;
+}
+
+.about-section .container .about h2{
+   font-size:2.3rem;
+   font-family:'Times New Roman', Times, serif;
+
+}
+
+.about-section .container .about p{
+   margin-top:1.3rem;
+   font-size:1.2rem;
 }
 
 /* Footer */
