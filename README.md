@@ -5,7 +5,7 @@ A local massage therapy service in Mount Pleasant dedicated to providing persona
 
 ## Features
 
-Home page, contac page, and about page
+Home page, contact page, and about page
 
 ## Deployment
 
