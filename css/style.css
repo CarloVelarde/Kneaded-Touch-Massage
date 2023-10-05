@@ -211,7 +211,7 @@ header .content .btn{
 
 .services .blocks div{
    background-color:#F28C28;
-   width:33.33%;
+   flex:1;
    padding:1.5rem 1rem;
 }
 
@@ -360,20 +360,27 @@ footer .google-location iframe{
       width:100%;
       text-align:center;
       margin:0;
-      padding:0;
+      padding:2rem;
    }
 
    .welcome .availability h2{
       font-size:1.5rem;
    }
 
+   .services .container{
+      width:100%;
+      padding:0;
+   }
+
    .services .blocks{
       display:flex;
       flex-direction:column;
+      flex:1;
    }
 
    .services .blocks div{
       width:100%;
+      flex:1;
    }
 
    /* About */
