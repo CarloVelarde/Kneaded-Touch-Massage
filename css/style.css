@@ -138,6 +138,8 @@ header .content .btn{
 
 .welcome span a{
    font-weight:bold;
+   border-bottom:1px solid orange;
+   
 }
 .welcome span a:hover{
    color:orange;
@@ -168,6 +170,10 @@ header .content .btn{
 
 .welcome .availability .bigger{
    font-size:1.3rem;
+}
+
+.welcome .availability .bolden{
+   font-weight:bold;
 }
 
 .welcome .availability .btn{
@@ -305,6 +311,7 @@ footer{
    color:#fff;
    text-align:center;
    align-items: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer .contact-info{
