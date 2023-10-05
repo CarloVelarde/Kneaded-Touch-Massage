@@ -9,7 +9,7 @@ Home page, contact page, and about page
 
 ## Deployment
 
-Deployed through HostGator at kneadedmassage.com
+Deployed through HostGator at kneadedmassageiowa.com
 
 
 
