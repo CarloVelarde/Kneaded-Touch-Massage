@@ -56,6 +56,10 @@ img {
    opacity:0.8;
 }
 
+.bolden {
+   font-weight: bold;
+}
+
 
 /* Navbar */
 .navbar{
@@ -304,6 +308,7 @@ header .content .btn{
    margin-top:1.3rem;
    font-size:1.2rem;
 }
+
 
 /* Footer */
 footer{
