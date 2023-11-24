@@ -323,12 +323,17 @@ footer .contact-info{
    padding:20px;
 }
 
+footer .contact-info p{
+   color:white;
+}
+
 footer .google-location iframe{
    margin-top:2rem;
    margin-bottom:1rem;
    max-width:1280px;
    min-width:400px;
 }
+
 
 /* Mobile */
 @media(max-width:768px){
@@ -345,6 +350,7 @@ footer .google-location iframe{
       display:flex;
       flex-direction:column;
       align-items: center;
+      padding:0px;
       
    }
    .welcome .container h2{
@@ -357,14 +363,14 @@ footer .google-location iframe{
 
    .welcome .container .info{
       width:100%;
-      padding:1.5rem;
+      padding:2.2rem;
       margin:2rem 1.5rem;
    }
 
    .welcome .availability {
       width:100%;
       text-align:center;
-      margin:0;
+      margin:0px;
       padding:2rem;
    }
 
@@ -390,6 +396,11 @@ footer .google-location iframe{
    }
 
    /* About */
+
+   .about-section .about h2{
+      text-decoration: underline solid 2.5px orange;
+      text-underline-offset: .7rem;
+   }
    .about-section .container{
       flex-direction:column-reverse;
    }
