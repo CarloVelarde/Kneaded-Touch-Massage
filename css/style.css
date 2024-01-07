@@ -309,6 +309,44 @@ header .content .btn{
    font-size:1.2rem;
 }
 
+/* Service Page */
+
+#services-top{
+   display:flex;
+   max-height:428px;
+   min-height:256px;
+}
+
+#services-top-box{
+   width:50%;
+   background: url(../img/orange-gradient.jpg) no-repeat center center/cover;
+   
+}
+
+#services-top-box .content{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   padding:1rem;
+   text-align:center;
+   color:white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   height:100%;
+}
+
+#services-top-box .content h3{
+   font-size:2.45rem;
+}
+
+#services-top-box .content p{
+   font-size:1.3rem;
+}
+
+#services-top img{
+   width: 50%;
+   max-height:70%;
+}
 
 /* Footer */
 footer{
