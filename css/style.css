@@ -413,10 +413,6 @@ header .content .btn{
 
 
 
-
-
-
-
 /* Footer */
 footer{
    background:#333;
@@ -559,7 +555,10 @@ footer .google-location iframe{
       min-width:200px;
    }
 
+}
 
-
-
+@media(max-width:768px){
+   #navbar nav ul li a{
+      padding:5px;
+   }
 }
