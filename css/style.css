@@ -60,6 +60,9 @@ img {
    font-weight: bold;
 }
 
+.special-color{
+   color:#FF033E;
+}
 
 /* Navbar */
 .navbar{
@@ -91,6 +94,7 @@ img {
 .navbar p{
    font-size:1.3rem;
    color:white;
+   text-align:center;
 }
 .navbar i{
    color:darkgoldenrod;
@@ -345,8 +349,79 @@ header .content .btn{
 
 #services-top img{
    width: 50%;
-   max-height:70%;
+   max-height:76%;
 }
+
+#services-bottom{
+   display:flex;
+   flex-direction:row;
+   width:100%;
+}
+
+#services-bottom h3{
+   font-size:1.8rem;
+}
+
+#services-bottom .standard-services{
+   margin: 3rem 2rem 3rem 2rem;
+   width:40%;
+   border:solid orange 2px;
+   border-radius:10px;
+   padding:1rem;
+}
+
+#services-bottom .standard-services h3{
+   margin-bottom:1rem;
+}
+
+
+#services-bottom .standard-services ul li{
+   padding:.5rem;
+   font-size:1.3rem;
+}
+#services-bottom .standard-services ul li .orange{
+   color:orange;
+}
+
+#services-botton .standard-services .service-offers{
+   margin: 3rem 5rem 3rem 5rem;
+}
+
+#services-bottom .specials {
+   margin: 3rem 2rem 3rem 2rem;
+   width:60%;
+   padding:1rem;
+   background:orange;
+   border-radius:10px;
+}
+
+#services-bottom .specials h4{
+   font-size:1.4rem;
+}
+
+#services-bottom .specials h5{
+   font-size:1.1rem;
+   font-style:italic;
+}
+
+#services-bottom .specials p{
+   font-size:1.3rem;
+}
+
+#services-bottom .specials .offers ul li{
+   padding:.5rem;
+   font-size:1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer{
