@@ -64,6 +64,10 @@ img {
    color:#FF033E;
 }
 
+.orange {
+   color: orange;
+}
+
 /* Navbar */
 .navbar{
    background: orange;
@@ -317,7 +321,7 @@ header .content .btn{
 
 #services-top{
    display:flex;
-   max-height:428px;
+   max-height:512px;
    min-height:256px;
 }
 
@@ -352,70 +356,60 @@ header .content .btn{
    max-height:76%;
 }
 
-#services-bottom{
+#services-bottom {
    display:flex;
-   flex-direction:row;
-   width:100%;
-}
-
-#services-bottom h3{
-   font-size:1.8rem;
-}
-
-#services-bottom .standard-services{
-   margin: 3rem 2rem 3rem 2rem;
-   width:40%;
-   border:solid orange 2px;
-   border-radius:10px;
-   padding:1rem;
-}
-
-#services-bottom .standard-services h3{
-   margin-bottom:1rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top:4rem;
+   text-align:center;
 }
 
 
-#services-bottom .standard-services ul li{
-   padding:.5rem;
-   font-size:1.3rem;
+#services-bottom .pricing{
+   border:solid 2px orange;
+   padding:2rem;
 }
-#services-bottom .standard-services ul li .orange{
+
+#services-bottom .pricing h3{
+   font-size:2.7rem;
    color:orange;
+   border-bottom:solid 1px;
 }
 
-#services-botton .standard-services .service-offers{
-   margin: 3rem 5rem 3rem 5rem;
+#services-bottom .pricing li {
+   padding:1rem;
+   font-size:1.3rem;
 }
 
 #services-bottom .specials {
-   margin: 3rem 2rem 3rem 2rem;
-   width:60%;
+   margin:2rem 20% 2rem 20%;
+}
+
+#services-bottom .specials h3 {
+   font-size: 2.7rem;
+   color:white;
+   background-color:orange;
+   padding:0 8rem 0 8rem;
+   margin-bottom:1rem;
+}
+
+#services-bottom .specials h4 {
+   margin-top:1rem;
+   font-size:1.9rem;
+   color:orange;
+}
+
+#services-bottom .specials p {
+   font-size: 1.3rem;
    padding:1rem;
-   background:orange;
-   border-radius:10px;
+   text-align:left;
 }
 
-#services-bottom .specials h4{
-   font-size:1.4rem;
-}
-
-#services-bottom .specials h5{
-   font-size:1.1rem;
+#services-bottom .specials .italicize{
    font-style:italic;
+   font-size:1.2rem;
 }
-
-#services-bottom .specials p{
-   font-size:1.3rem;
-}
-
-#services-bottom .specials .offers ul li{
-   padding:.5rem;
-   font-size:1.3rem;
-}
-
-
-
-
 
 
 
