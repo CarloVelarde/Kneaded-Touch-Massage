@@ -361,6 +361,7 @@ header .content .btn{
    align-items: center;
    margin-top:4rem;
    text-align:center;
+   margin-bottom:3rem;
 }
 
 
@@ -565,6 +566,8 @@ footer .google-location iframe{
       margin:0;
       padding:1rem;
    }
+
+
    
 
 
